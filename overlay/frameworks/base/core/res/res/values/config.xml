@@ -378,7 +378,7 @@
     <bool name="config_samsung_stk">true</bool>
 
     <!-- Is the device LTE capable -->
-    <bool name="config_lte_capable">false</bool>
+    <bool name="config_lte_capable">true</bool>
 
     <!-- Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
