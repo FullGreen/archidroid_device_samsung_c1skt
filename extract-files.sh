@@ -52,6 +52,9 @@ done
 LOCAL_PATH := vendor/__VENDOR__/__DEVICE__
 
 PRODUCT_COPY_FILES += \\
+    \$(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
+
+PRODUCT_COPY_FILES += \\
 EOF
 
 LINEEND=" \\"
@@ -99,6 +102,9 @@ EOF
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+USE_CAMERA_STUB := false
+BOARD_USES_GENERIC_AUDIO := false
 
 EOF
 
