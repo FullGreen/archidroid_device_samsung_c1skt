@@ -126,7 +126,7 @@ EXTENDED_FONT_FOOTPRINT := true
 # Logging
 TARGET_USES_LOGD := false
 
-BOARD_RIL_CLASS := ../../../hardware/samsung/exynos4/ril
+BOARD_RIL_CLASS := ../../../device/samsung/c1skt/ril
 #BOARD_PROVIDES_LIBRIL and BOARD_MODEM_TYPE are still in device specific makefile
 
 # Wifi
