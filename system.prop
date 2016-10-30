@@ -6,3 +6,7 @@ rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
 ro.sf.lcd_density=320
 ro.lcd_min_brightness=20
+
+# Battery
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
