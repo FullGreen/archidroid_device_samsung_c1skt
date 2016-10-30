@@ -262,7 +262,7 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.ril_class=SamsungExynos4RIL \
+    ro.telephony.ril_class=C1sktRIL \
     ro.telephony.call_ring.multiple=false \
     ro.telephony.call_ring.delay=3000
 
