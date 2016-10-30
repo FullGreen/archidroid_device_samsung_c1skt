@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := i9300
+PRODUCT_RELEASE_NAME := c1skt
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
@@ -9,14 +9,14 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/i9300/full_i9300.mk)
+$(call inherit-product, device/samsung/c1skt/full_c1skt.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := i9300
-PRODUCT_NAME := cm_i9300
+PRODUCT_DEVICE := c1skt
+PRODUCT_NAME := cm_c1skt
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := GT-I9300
+PRODUCT_MODEL := SHV-E210S
 PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=m0xx TARGET_DEVICE=m0 BUILD_FINGERPRINT="samsung/m0xx/m0:4.3/JSS15J/I9300XXUGMJ9:user/release-keys" PRIVATE_BUILD_DESC="m0xx-user 4.3 JSS15J I9300XXUGMJ9 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=c1skt TARGET_DEVICE=c1skt BUILD_FINGERPRINT="samsung/c1skt/c1skt:4.4.4/KTU84P/E210SKSUKOL2:user/release-keys" PRIVATE_BUILD_DESC="c1skt-user 4.4.4 KTU84P E210SKSUKOL2 release-keys"
